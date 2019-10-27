@@ -1,0 +1,1 @@
+locky_block_pudding = 布丁的幸運方塊馬拉松
