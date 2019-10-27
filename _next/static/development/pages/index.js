@@ -31247,24 +31247,28 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/esm/Button/index.js");
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
-/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Card */ "./node_modules/@material-ui/core/esm/Card/index.js");
-/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/esm/CardContent/index.js");
-/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "./node_modules/@material-ui/core/esm/CardMedia/index.js");
-/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
-/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/Container */ "./node_modules/@material-ui/core/esm/Container/index.js");
-/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
-/* harmony import */ var _src_header__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/header */ "./src/header.tsx");
-/* harmony import */ var _src_footer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/footer */ "./src/footer.tsx");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/esm/Button/index.js");
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
+/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Card */ "./node_modules/@material-ui/core/esm/Card/index.js");
+/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/esm/CardContent/index.js");
+/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "./node_modules/@material-ui/core/esm/CardMedia/index.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @material-ui/core/Container */ "./node_modules/@material-ui/core/esm/Container/index.js");
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
+/* harmony import */ var _src_link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/link */ "./src/link.tsx");
+/* harmony import */ var _src_header__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../src/header */ "./src/header.tsx");
+/* harmony import */ var _src_footer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../src/footer */ "./src/footer.tsx");
+
 
 var _jsxFileName = "D:\\Project\\McDedicatedServer\\minecraft_scepter_home\\nextjs-with-typescript\\pages\\index.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
 
 
 
@@ -31281,7 +31285,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 function Copyright() {
-  return __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  return __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
     variant: "body2",
     color: "textSecondary",
     align: "center",
@@ -31290,7 +31294,7 @@ function Copyright() {
       lineNumber: 25
     },
     __self: this
-  }, 'Copyright © ', __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, 'Copyright © ', __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_13__["default"], {
     color: "inherit",
     href: "https://material-ui.com/",
     __source: {
@@ -31301,7 +31305,7 @@ function Copyright() {
   }, "\u5275\u4E16\u795E\u6B0A\u6756"), ' ', new Date().getFullYear(), '.');
 }
 
-var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10__["makeStyles"])(function (theme) {
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__["makeStyles"])(function (theme) {
   return {
     icon: {
       marginRight: theme.spacing(2)
@@ -31384,14 +31388,14 @@ function Hero() {
       lineNumber: 80
     },
     __self: this
-  }, __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_12__["default"], {
     maxWidth: "sm",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 81
     },
     __self: this
-  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
     component: "h1",
     variant: "h2",
     align: "center",
@@ -31402,7 +31406,7 @@ function Hero() {
       lineNumber: 82
     },
     __self: this
-  }, "\u81EA\u52D5\u5316\u958B\u670D"), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, "\u81EA\u52D5\u5316\u958B\u670D"), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
     variant: "h5",
     align: "center",
     color: "textSecondary",
@@ -31437,7 +31441,7 @@ function Hero() {
       lineNumber: 88
     },
     __self: this
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     container: true,
     spacing: 2,
     justify: "center",
@@ -31446,22 +31450,26 @@ function Hero() {
       lineNumber: 89
     },
     __self: this
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     item: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     variant: "contained",
     color: "primary",
+    component: _src_link__WEBPACK_IMPORTED_MODULE_14__["default"]
+  }, {
+    href: '/changelogs'
+  }, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91
     },
     __self: this
-  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"]
   /*fontWeight="fontWeightBold"*/
   , {
     style: {
@@ -31472,14 +31480,14 @@ function Hero() {
       lineNumber: 92
     },
     __self: this
-  }, "\u4E0B\u8F09\u5275\u4E16\u795E\u6B0A\u6756"))), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "\u4E0B\u8F09\u5275\u4E16\u795E\u6B0A\u6756"))), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     item: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97
     },
     __self: this
-  }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     variant: "outlined",
     color: "primary",
     __source: {
@@ -31487,21 +31495,25 @@ function Hero() {
       lineNumber: 98
     },
     __self: this
-  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     fontWeight: "fontWeightBold",
+    component: _src_link__WEBPACK_IMPORTED_MODULE_14__["default"]
+  }, {
+    href: '/tutorials'
+  }, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 99
     },
     __self: this
-  }, "\u4E86\u89E3\u66F4\u591A")))))));
+  }), "\u4E86\u89E3\u66F4\u591A")))))));
 }
 
 function FeatrueHome() {
   var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
       classes = _ref2.classes;
 
-  return __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  return __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_12__["default"], {
     className: classes.cardGrid,
     maxWidth: "md",
     __source: {
@@ -31509,7 +31521,7 @@ function FeatrueHome() {
       lineNumber: 113
     },
     __self: this
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     container: true,
     spacing: 4,
     __source: {
@@ -31518,7 +31530,7 @@ function FeatrueHome() {
     },
     __self: this
   }, cards.map(function (card) {
-    return __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    return __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
       item: true,
       key: card.title,
       xs: 12,
@@ -31529,14 +31541,14 @@ function FeatrueHome() {
         lineNumber: 116
       },
       __self: this
-    }, __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_5__["default"], {
       className: classes.card,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 117
       },
       __self: this
-    }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__["default"], {
       className: classes.cardMedia,
       image: "".concat(card.url),
       title: "".concat(card.title),
@@ -31545,7 +31557,7 @@ function FeatrueHome() {
         lineNumber: 118
       },
       __self: this
-    }), __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    }), __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__["default"], {
       className: classes.cardContent,
       style: {
         backgroundColor: card.backgroundColor,
@@ -31556,7 +31568,7 @@ function FeatrueHome() {
         lineNumber: 123
       },
       __self: this
-    }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
       gutterBottom: true,
       variant: "h5",
       component: "h2",
@@ -31565,7 +31577,7 @@ function FeatrueHome() {
         lineNumber: 124
       },
       __self: this
-    }, "".concat(card.title)), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    }, "".concat(card.title)), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 127
@@ -31577,19 +31589,19 @@ function FeatrueHome() {
 
 function Index() {
   var classes = useStyles({});
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 143
     },
     __self: this
-  }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 144
     },
     __self: this
-  }), __jsx(_src_header__WEBPACK_IMPORTED_MODULE_13__["default"], {
+  }), __jsx(_src_header__WEBPACK_IMPORTED_MODULE_15__["default"], {
     tabIndex: -1,
     __source: {
       fileName: _jsxFileName,
@@ -31616,7 +31628,7 @@ function Index() {
       lineNumber: 150
     },
     __self: this
-  })), __jsx(_src_footer__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  })), __jsx(_src_footer__WEBPACK_IMPORTED_MODULE_16__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 153
@@ -31839,10 +31851,15 @@ function Header(props) {
   var handleMenuClose = function handleMenuClose() {
     setAnchorEl(null);
     handleMobileMenuClose();
-  };
+  }; // const handleMobileMenuOpen = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  //   setMobileMoreAnchorEl(event.currentTarget);
+  // };
+
 
   var handleMobileMenuOpen = function handleMobileMenuOpen(event) {
+    console.log("open menu");
     setMobileMoreAnchorEl(event.currentTarget);
+    console.log("open menu");
   };
 
   var handleChange = function handleChange(_, newValue) {
@@ -31867,21 +31884,21 @@ function Header(props) {
     onClose: handleMenuClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 96
     },
     __self: this
   }, __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
     onClick: handleMenuClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 105
     },
     __self: this
   }, "Profile"), __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
     onClick: handleMenuClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 106
     },
     __self: this
   }, "My account"));
@@ -31904,7 +31921,7 @@ function Header(props) {
     onClose: handleMobileMenuClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 112
     },
     __self: this
   }, __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -31912,7 +31929,7 @@ function Header(props) {
     href: "/tutroials",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 121
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -31922,19 +31939,19 @@ function Header(props) {
     color: "inherit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 122
     },
     __self: this
   }, __jsx(_material_ui_icons_Videocam__WEBPACK_IMPORTED_MODULE_15___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 128
     },
     __self: this
   })), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 130
     },
     __self: this
   }, "\u5F71\u7247\u6559\u5B78")), __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -31942,7 +31959,7 @@ function Header(props) {
     href: "/installers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 132
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -31952,19 +31969,19 @@ function Header(props) {
     color: "inherit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 133
     },
     __self: this
   }, __jsx(_material_ui_icons_Stars__WEBPACK_IMPORTED_MODULE_16___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 139
     },
     __self: this
   })), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 141
     },
     __self: this
   }, "\u63A8\u85A6\u5B89\u88DD\u5305")), __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -31972,7 +31989,7 @@ function Header(props) {
     href: "/faq",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 143
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -31982,19 +31999,19 @@ function Header(props) {
     color: "inherit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 144
     },
     __self: this
   }, __jsx(_material_ui_icons_QuestionAnswer__WEBPACK_IMPORTED_MODULE_17___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 150
     },
     __self: this
   })), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 152
     },
     __self: this
   }, "\u5E38\u898B\u554F\u984C")), __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -32002,7 +32019,7 @@ function Header(props) {
     href: "/changelogs",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 154
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -32012,19 +32029,19 @@ function Header(props) {
     color: "inherit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 155
     },
     __self: this
   }, __jsx(_material_ui_icons_ChangeHistory__WEBPACK_IMPORTED_MODULE_18___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 161
     },
     __self: this
   })), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 163
     },
     __self: this
   }, "\u6B77\u53F2\u7248\u672C")), __jsx(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -32032,7 +32049,7 @@ function Header(props) {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 165
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -32042,19 +32059,19 @@ function Header(props) {
     color: "inherit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 166
     },
     __self: this
   }, __jsx(_material_ui_icons_Deck__WEBPACK_IMPORTED_MODULE_19___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166
+      lineNumber: 172
     },
     __self: this
   })), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 174
     },
     __self: this
   }, "\u95DC\u65BC")));
@@ -32076,14 +32093,14 @@ function Header(props) {
         children: __jsx("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 189
+            lineNumber: 195
           },
           __self: this
         })
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 189
+        lineNumber: 195
       },
       __self: this
     }));
@@ -32108,7 +32125,7 @@ function Header(props) {
     }, props, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 209
+        lineNumber: 215
       },
       __self: this
     }));
@@ -32117,13 +32134,13 @@ function Header(props) {
     position: "relative",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212
+      lineNumber: 218
     },
     __self: this
   }, __jsx(_material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213
+      lineNumber: 219
     },
     __self: this
   }, __jsx("img", {
@@ -32135,7 +32152,7 @@ function Header(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 220
     },
     __self: this
   }), __jsx(_link__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -32147,21 +32164,21 @@ function Header(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 221
     },
     __self: this
   }, "\u5275\u4E16\u795E\u6B0A\u6756"), __jsx("div", {
     className: classes.grow,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 229
     },
     __self: this
   }), __jsx("nav", {
     className: classes.sectionDesktop,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 230
     },
     __self: this
   }, __jsx(StyledTabs, {
@@ -32170,7 +32187,7 @@ function Header(props) {
     "aria-label": "styled tabs example",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263
+      lineNumber: 269
     },
     __self: this
   }, __jsx(StyledTab, {
@@ -32179,7 +32196,7 @@ function Header(props) {
     href: "/tutorials",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 270
     },
     __self: this
   }), __jsx(StyledTab, {
@@ -32188,7 +32205,7 @@ function Header(props) {
     href: "/installers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265
+      lineNumber: 271
     },
     __self: this
   }), __jsx(StyledTab, {
@@ -32197,7 +32214,7 @@ function Header(props) {
     href: "/faq",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266
+      lineNumber: 272
     },
     __self: this
   }), __jsx(StyledTab, {
@@ -32206,7 +32223,7 @@ function Header(props) {
     href: "/changelogs",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267
+      lineNumber: 273
     },
     __self: this
   }), __jsx(StyledTab, {
@@ -32215,38 +32232,42 @@ function Header(props) {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268
+      lineNumber: 274
     },
     __self: this
   })), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
     className: classes.padding,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270
+      lineNumber: 276
     },
     __self: this
   })), __jsx("nav", {
     className: classes.sectionMobile,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272
+      lineNumber: 278
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
     "aria-label": "show more",
     "aria-controls": mobileMenuId,
     "aria-haspopup": "true",
-    onClick: handleMobileMenuOpen,
+    onClick: function onClick(event) {
+      console.log("clicked!");
+      handleMobileMenuOpen(event);
+      console.log("clicked!");
+    },
     color: "inherit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273
+      lineNumber: 279
     },
     __self: this
   }, __jsx(_material_ui_icons_MoreVert__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280
+      lineNumber: 290
     },
     __self: this
   })))), renderMobileMenu, renderMenu);
