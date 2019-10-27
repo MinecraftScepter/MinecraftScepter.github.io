@@ -25,7 +25,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/styles */ "./node_modules/@material-ui/styles/esm/index.js");
 /* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
 /* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/theme */ "./src/theme.tsx");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 
 
 
@@ -34,7 +33,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "D:\\Project\\McDedicatedServer\\minecraft_scepter_home\\nextjs-with-typescript\\pages\\_app.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
-
 
 
 
@@ -61,11 +59,7 @@ function (_App) {
 
       if (jssStyles) {
         jssStyles.parentNode.removeChild(jssStyles);
-      } // 看封包可以看到
-
-
-      react_ga__WEBPACK_IMPORTED_MODULE_12__["default"].initialize('UA-65156776-3');
-      react_ga__WEBPACK_IMPORTED_MODULE_12__["default"].pageview(document.location.pathname);
+      }
     }
   }, {
     key: "render",
@@ -76,46 +70,72 @@ function (_App) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 21
         },
         __self: this
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 22
         },
         __self: this
       }, __jsx("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 23
         },
         __self: this
       }, "MinecraftScepter"), __jsx("link", {
+        rel: "shortcut icon",
+        href: "/static/favicon.ico",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }), __jsx("link", {
         href: "https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap",
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 25
         },
         __self: this
-      })), __jsx(_material_ui_styles__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
-        theme: _src_theme__WEBPACK_IMPORTED_MODULE_11__["default"],
+      }), __jsx("script", {
+        dangerouslySetInnerHTML: {
+          __html: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n          })(window,document,'script','dataLayer','GTM-TW6BGGL');"
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 26
         },
         __self: this
-      }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      })), __jsx("noscript", {
+        dangerouslySetInnerHTML: {
+          __html: "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TW6BGGL\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden;\"></iframe>"
+        },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+      }), __jsx(_material_ui_styles__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
+        theme: _src_theme__WEBPACK_IMPORTED_MODULE_11__["default"],
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
+        },
+        __self: this
+      }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
         },
         __self: this
       }))));
@@ -130,4 +150,4 @@ function (_App) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.6fc64ce06e6899166b19.hot-update.js.map
+//# sourceMappingURL=_app.js.9e5e4867ad332480fa67.hot-update.js.map
