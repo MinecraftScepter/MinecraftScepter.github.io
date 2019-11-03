@@ -18701,13 +18701,13 @@ function (_App) {
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(MyApp, [{
     key: "componentDidMount",
-    value: function componentDidMount() {
-      // Remove the server-side injected CSS.
-      var jssStyles = document.querySelector('#jss-server-side');
-
-      if (jssStyles) {
-        jssStyles.parentNode.removeChild(jssStyles);
-      }
+    value: function componentDidMount() {// Remove the server-side injected CSS.
+      //alert("Did mount");
+      // const jssStyles = document.querySelector('#jss-server-side');
+      // if (jssStyles) {
+      //   jssStyles.parentNode!.removeChild(jssStyles);
+      // }
+      //alert("Did mount");
     }
   }, {
     key: "render",
@@ -18718,19 +18718,19 @@ function (_App) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         },
         __self: this
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
       }, __jsx("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         },
         __self: this
       }, "MinecraftScepter"), __jsx("link", {
@@ -18738,7 +18738,7 @@ function (_App) {
         href: "/static/favicon.ico",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 25
         },
         __self: this
       }), __jsx("link", {
@@ -18746,7 +18746,7 @@ function (_App) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         },
         __self: this
       }), __jsx("script", {
@@ -18755,26 +18755,35 @@ function (_App) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 27
+        },
+        __self: this
+      }), __jsx("script", {
+        "data-ad-client": "ca-pub-6282899881501227",
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
         },
         __self: this
       })), __jsx(_material_ui_styles__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
         theme: _src_theme__WEBPACK_IMPORTED_MODULE_11__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 34
         },
         __self: this
       }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 36
         },
         __self: this
       }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
       }))));
