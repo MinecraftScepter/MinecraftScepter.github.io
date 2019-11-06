@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\installers.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -477,6 +477,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableRest; });
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
+/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+
+
+
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    var ownKeys = _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(source);
+
+    if (typeof _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default.a === 'function') {
+      ownKeys = ownKeys.concat(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default()(source).filter(function (sym) {
+        return _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default()(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]);
+    });
+  }
+
+  return target;
 }
 
 /***/ }),
@@ -1532,6 +1575,447 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Box__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "styleFunction", function() { return _Box__WEBPACK_IMPORTED_MODULE_0__["styleFunction"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Button/Button.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Button/Button.js ***!
+  \*************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+/* harmony import */ var _styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/colorManipulator */ "./node_modules/@material-ui/core/esm/styles/colorManipulator.js");
+/* harmony import */ var _ButtonBase__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../ButtonBase */ "./node_modules/@material-ui/core/esm/ButtonBase/index.js");
+/* harmony import */ var _utils_capitalize__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../utils/capitalize */ "./node_modules/@material-ui/core/esm/utils/capitalize.js");
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, theme.typography.button, {
+      boxSizing: 'border-box',
+      minWidth: 64,
+      padding: '6px 16px',
+      borderRadius: theme.shape.borderRadius,
+      color: theme.palette.text.primary,
+      transition: theme.transitions.create(['background-color', 'box-shadow', 'border'], {
+        duration: theme.transitions.duration.short
+      }),
+      '&:hover': {
+        textDecoration: 'none',
+        backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.text.primary, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        },
+        '&$disabled': {
+          backgroundColor: 'transparent'
+        }
+      },
+      '&$disabled': {
+        color: theme.palette.action.disabled
+      }
+    }),
+
+    /* Styles applied to the span element that wraps the children. */
+    label: {
+      width: '100%',
+      // Ensure the correct width for iOS Safari
+      display: 'inherit',
+      alignItems: 'inherit',
+      justifyContent: 'inherit'
+    },
+
+    /* Styles applied to the root element if `variant="text"`. */
+    text: {
+      padding: '6px 8px'
+    },
+
+    /* Styles applied to the root element if `variant="text"` and `color="primary"`. */
+    textPrimary: {
+      color: theme.palette.primary.main,
+      '&:hover': {
+        backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.primary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="text"` and `color="secondary"`. */
+    textSecondary: {
+      color: theme.palette.secondary.main,
+      '&:hover': {
+        backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"`. */
+    outlined: {
+      padding: '5px 15px',
+      border: "1px solid ".concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)'),
+      '&$disabled': {
+        border: "1px solid ".concat(theme.palette.action.disabled)
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"` and `color="primary"`. */
+    outlinedPrimary: {
+      color: theme.palette.primary.main,
+      border: "1px solid ".concat(Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.primary.main, 0.5)),
+      '&:hover': {
+        border: "1px solid ".concat(theme.palette.primary.main),
+        backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.primary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"` and `color="secondary"`. */
+    outlinedSecondary: {
+      color: theme.palette.secondary.main,
+      border: "1px solid ".concat(Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.secondary.main, 0.5)),
+      '&:hover': {
+        border: "1px solid ".concat(theme.palette.secondary.main),
+        backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__["fade"])(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      },
+      '&$disabled': {
+        border: "1px solid ".concat(theme.palette.action.disabled)
+      }
+    },
+
+    /* Styles applied to the root element if `variant="contained"`. */
+    contained: {
+      color: theme.palette.getContrastText(theme.palette.grey[300]),
+      backgroundColor: theme.palette.grey[300],
+      boxShadow: theme.shadows[2],
+      '&:hover': {
+        backgroundColor: theme.palette.grey.A100,
+        boxShadow: theme.shadows[4],
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          boxShadow: theme.shadows[2],
+          backgroundColor: theme.palette.grey[300]
+        },
+        '&$disabled': {
+          backgroundColor: theme.palette.action.disabledBackground
+        }
+      },
+      '&$focusVisible': {
+        boxShadow: theme.shadows[6]
+      },
+      '&:active': {
+        boxShadow: theme.shadows[8]
+      },
+      '&$disabled': {
+        color: theme.palette.action.disabled,
+        boxShadow: theme.shadows[0],
+        backgroundColor: theme.palette.action.disabledBackground
+      }
+    },
+
+    /* Styles applied to the root element if `variant="contained"` and `color="primary"`. */
+    containedPrimary: {
+      color: theme.palette.primary.contrastText,
+      backgroundColor: theme.palette.primary.main,
+      '&:hover': {
+        backgroundColor: theme.palette.primary.dark,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: theme.palette.primary.main
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="contained"` and `color="secondary"`. */
+    containedSecondary: {
+      color: theme.palette.secondary.contrastText,
+      backgroundColor: theme.palette.secondary.main,
+      '&:hover': {
+        backgroundColor: theme.palette.secondary.dark,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: theme.palette.secondary.main
+        }
+      }
+    },
+
+    /* Pseudo-class applied to the ButtonBase root element if the button is keyboard focused. */
+    focusVisible: {},
+
+    /* Pseudo-class applied to the root element if `disabled={true}`. */
+    disabled: {},
+
+    /* Styles applied to the root element if `color="inherit"`. */
+    colorInherit: {
+      color: 'inherit',
+      borderColor: 'currentColor'
+    },
+
+    /* Styles applied to the root element if `size="small"` and `variant="text"`. */
+    textSizeSmall: {
+      padding: '4px 5px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the root element if `size="large"` and `variant="text"`. */
+    textSizeLarge: {
+      padding: '8px 11px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+
+    /* Styles applied to the root element if `size="small"` and `variant="outlined"`. */
+    outlinedSizeSmall: {
+      padding: '3px 9px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the root element if `size="large"` and `variant="outlined"`. */
+    outlinedSizeLarge: {
+      padding: '7px 21px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+
+    /* Styles applied to the root element if `size="small"` and `variant="contained"`. */
+    containedSizeSmall: {
+      padding: '4px 10px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the root element if `size="large"` and `variant="contained"`. */
+    containedSizeLarge: {
+      padding: '8px 22px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+
+    /* Styles applied to the root element if `size="small"`. */
+    sizeSmall: {},
+
+    /* Styles applied to the root element if `size="large"`. */
+    sizeLarge: {},
+
+    /* Styles applied to the root element if `fullWidth={true}`. */
+    fullWidth: {
+      width: '100%'
+    },
+
+    /* Styles applied to the startIcon element if supplied. */
+    startIcon: {
+      display: 'inherit',
+      marginRight: 8,
+      marginLeft: -4
+    },
+
+    /* Styles applied to the endIcon element if supplied. */
+    endIcon: {
+      display: 'inherit',
+      marginRight: -4,
+      marginLeft: 8
+    },
+
+    /* Styles applied to the icon element if supplied and `size="small"`. */
+    iconSizeSmall: {
+      '& > *:first-child': {
+        fontSize: 18
+      }
+    },
+
+    /* Styles applied to the icon element if supplied and `size="medium"`. */
+    iconSizeMedium: {
+      '& > *:first-child': {
+        fontSize: 20
+      }
+    },
+
+    /* Styles applied to the icon element if supplied and `size="large"`. */
+    iconSizeLarge: {
+      '& > *:first-child': {
+        fontSize: 22
+      }
+    }
+  };
+};
+var Button = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function Button(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$color = props.color,
+      color = _props$color === void 0 ? 'default' : _props$color,
+      _props$component = props.component,
+      component = _props$component === void 0 ? 'button' : _props$component,
+      _props$disabled = props.disabled,
+      disabled = _props$disabled === void 0 ? false : _props$disabled,
+      _props$disableFocusRi = props.disableFocusRipple,
+      disableFocusRipple = _props$disableFocusRi === void 0 ? false : _props$disableFocusRi,
+      endIconProp = props.endIcon,
+      focusVisibleClassName = props.focusVisibleClassName,
+      _props$fullWidth = props.fullWidth,
+      fullWidth = _props$fullWidth === void 0 ? false : _props$fullWidth,
+      _props$size = props.size,
+      size = _props$size === void 0 ? 'medium' : _props$size,
+      startIconProp = props.startIcon,
+      _props$type = props.type,
+      type = _props$type === void 0 ? 'button' : _props$type,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'text' : _props$variant,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(props, ["children", "classes", "className", "color", "component", "disabled", "disableFocusRipple", "endIcon", "focusVisibleClassName", "fullWidth", "size", "startIcon", "type", "variant"]);
+
+  var startIcon = startIconProp && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.startIcon, classes["iconSize".concat(Object(_utils_capitalize__WEBPACK_IMPORTED_MODULE_8__["default"])(size))])
+  }, startIconProp);
+  var endIcon = endIconProp && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.endIcon, classes["iconSize".concat(Object(_utils_capitalize__WEBPACK_IMPORTED_MODULE_8__["default"])(size))])
+  }, endIconProp);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_ButtonBase__WEBPACK_IMPORTED_MODULE_7__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, classes[variant], className, color === 'inherit' ? classes.colorInherit : color !== 'default' && classes["".concat(variant).concat(Object(_utils_capitalize__WEBPACK_IMPORTED_MODULE_8__["default"])(color))], size !== 'medium' && [classes["".concat(variant, "Size").concat(Object(_utils_capitalize__WEBPACK_IMPORTED_MODULE_8__["default"])(size))], classes["size".concat(Object(_utils_capitalize__WEBPACK_IMPORTED_MODULE_8__["default"])(size))]], disabled && classes.disabled, fullWidth && classes.fullWidth),
+    component: component,
+    disabled: disabled,
+    focusRipple: !disableFocusRipple,
+    focusVisibleClassName: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.focusVisible, focusVisibleClassName),
+    ref: ref,
+    type: type
+  }, other), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: classes.label
+  }, startIcon, children, endIcon));
+});
+ true ? Button.propTypes = {
+  /**
+   * The content of the button.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The color of the component. It supports those theme colors that make sense for this component.
+   */
+  color: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['default', 'inherit', 'primary', 'secondary']),
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.elementType,
+
+  /**
+   * If `true`, the button will be disabled.
+   */
+  disabled: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * If `true`, the  keyboard focus ripple will be disabled.
+   * `disableRipple` must also be true.
+   */
+  disableFocusRipple: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * If `true`, the ripple effect will be disabled.
+   *
+   * ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure
+   * to highlight the element by applying separate styles with the `focusVisibleClassName`.
+   */
+  disableRipple: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * Element placed after the children.
+   */
+  endIcon: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * @ignore
+   */
+  focusVisibleClassName: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * If `true`, the button will take up the full width of its container.
+   */
+  fullWidth: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * The URL to link to when the button is clicked.
+   * If defined, an `a` element will be used as the root node.
+   */
+  href: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The size of the button.
+   * `small` is equivalent to the dense button styling.
+   */
+  size: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['small', 'medium', 'large']),
+
+  /**
+   * Element placed before the children.
+   */
+  startIcon: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * @ignore
+   */
+  type: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The variant to use.
+   */
+  variant: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['text', 'outlined', 'contained'])
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
+  name: 'MuiButton'
+})(Button));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Button/index.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Button/index.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button */ "./node_modules/@material-ui/core/esm/Button/Button.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Button__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
 
@@ -4674,180 +5158,6 @@ var ListItem = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ListItem__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ListItem */ "./node_modules/@material-ui/core/esm/ListItem/ListItem.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ListItem__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/core/esm/ListItemText/ListItemText.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/@material-ui/core/esm/ListItemText/ListItemText.js ***!
-  \*************************************************************************/
-/*! exports provided: styles, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
-/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
-/* harmony import */ var _Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
-/* harmony import */ var _List_ListContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../List/ListContext */ "./node_modules/@material-ui/core/esm/List/ListContext.js");
-
-
-
-
-
-
-
-
-var styles = {
-  /* Styles applied to the root element. */
-  root: {
-    flex: '1 1 auto',
-    minWidth: 0,
-    marginTop: 4,
-    marginBottom: 4
-  },
-
-  /* Styles applied to the `Typography` components if primary and secondary are set. */
-  multiline: {
-    marginTop: 6,
-    marginBottom: 6
-  },
-
-  /* Styles applied to the `Typography` components if dense. */
-  dense: {},
-
-  /* Styles applied to the root element if `inset={true}`. */
-  inset: {
-    paddingLeft: 56
-  },
-
-  /* Styles applied to the primary `Typography` component. */
-  primary: {},
-
-  /* Styles applied to the secondary `Typography` component. */
-  secondary: {}
-};
-var ListItemText = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function ListItemText(props, ref) {
-  var children = props.children,
-      classes = props.classes,
-      className = props.className,
-      _props$disableTypogra = props.disableTypography,
-      disableTypography = _props$disableTypogra === void 0 ? false : _props$disableTypogra,
-      _props$inset = props.inset,
-      inset = _props$inset === void 0 ? false : _props$inset,
-      primaryProp = props.primary,
-      primaryTypographyProps = props.primaryTypographyProps,
-      secondaryProp = props.secondary,
-      secondaryTypographyProps = props.secondaryTypographyProps,
-      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["children", "classes", "className", "disableTypography", "inset", "primary", "primaryTypographyProps", "secondary", "secondaryTypographyProps"]);
-
-  var _React$useContext = react__WEBPACK_IMPORTED_MODULE_2___default.a.useContext(_List_ListContext__WEBPACK_IMPORTED_MODULE_7__["default"]),
-      dense = _React$useContext.dense;
-
-  var primary = primaryProp != null ? primaryProp : children;
-
-  if (primary != null && primary.type !== _Typography__WEBPACK_IMPORTED_MODULE_6__["default"] && !disableTypography) {
-    primary = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      variant: dense ? 'body2' : 'body1',
-      className: classes.primary,
-      component: "span"
-    }, primaryTypographyProps), primary);
-  }
-
-  var secondary = secondaryProp;
-
-  if (secondary != null && secondary.type !== _Typography__WEBPACK_IMPORTED_MODULE_6__["default"] && !disableTypography) {
-    secondary = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      variant: "body2",
-      className: classes.secondary,
-      color: "textSecondary"
-    }, secondaryTypographyProps), secondary);
-  }
-
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className, dense && classes.dense, inset && classes.inset, primary && secondary && classes.multiline),
-    ref: ref
-  }, other), primary, secondary);
-});
- true ? ListItemText.propTypes = {
-  /**
-   * Alias for the `primary` property.
-   */
-  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
-
-  /**
-   * Override or extend the styles applied to the component.
-   * See [CSS API](#css) below for more details.
-   */
-  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
-
-  /**
-   * @ignore
-   */
-  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
-
-  /**
-   * If `true`, the children won't be wrapped by a Typography component.
-   * This can be useful to render an alternative Typography variant by wrapping
-   * the `children` (or `primary`) text, and optional `secondary` text
-   * with the Typography component.
-   */
-  disableTypography: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
-
-  /**
-   * If `true`, the children will be indented.
-   * This should be used if there is no left avatar or left icon.
-   */
-  inset: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
-
-  /**
-   * The main content element.
-   */
-  primary: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
-
-  /**
-   * These props will be forwarded to the primary typography component
-   * (as long as disableTypography is not `true`).
-   */
-  primaryTypographyProps: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
-
-  /**
-   * The secondary content element.
-   */
-  secondary: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
-
-  /**
-   * These props will be forwarded to the secondary typography component
-   * (as long as disableTypography is not `true`).
-   */
-  secondaryTypographyProps: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object
-} : undefined;
-/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
-  name: 'MuiListItemText'
-})(ListItemText));
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/core/esm/ListItemText/index.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@material-ui/core/esm/ListItemText/index.js ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ListItemText__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ListItemText */ "./node_modules/@material-ui/core/esm/ListItemText/ListItemText.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ListItemText__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
 
@@ -11860,35 +12170,6 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./node_modules/@material-ui/icons/ListAlt.js":
-/*!****************************************************!*\
-  !*** ./node_modules/@material-ui/icons/ListAlt.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
-
-var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
-  d: "M19 5v14H5V5h14m1.1-2H3.9c-.5 0-.9.4-.9.9v16.2c0 .4.4.9.9.9h16.2c.4 0 .9-.5.9-.9V3.9c0-.5-.5-.9-.9-.9zM11 7h6v2h-6V7zm0 4h6v2h-6v-2zm0 4h6v2h-6zM7 7h2v2H7zm0 4h2v2H7zm0 4h2v2H7z"
-}), 'ListAlt');
-
-exports.default = _default;
-
-/***/ }),
-
 /***/ "./node_modules/@material-ui/icons/MoreVert.js":
 /*!*****************************************************!*\
   !*** ./node_modules/@material-ui/icons/MoreVert.js ***!
@@ -11942,35 +12223,6 @@ var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/crea
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
   d: "M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"
 }), 'QuestionAnswer');
-
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/icons/Save.js":
-/*!*************************************************!*\
-  !*** ./node_modules/@material-ui/icons/Save.js ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
-
-var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
-  d: "M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"
-}), 'Save');
 
 exports.default = _default;
 
@@ -14252,7 +14504,7 @@ var flexbox = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(flexBasis
 /*!*******************************************************!*\
   !*** ./node_modules/@material-ui/system/esm/index.js ***!
   \*******************************************************/
-/*! exports provided: borders, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, breakpoints, compose, css, display, flexbox, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, palette, color, bgcolor, positions, position, zIndex, top, right, bottom, left, shadows, sizing, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, spacing, style, typography, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
+/*! exports provided: borders, breakpoints, compose, css, display, flexbox, palette, positions, shadows, sizing, spacing, style, typography, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, color, bgcolor, position, zIndex, top, right, bottom, left, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23171,21 +23423,21 @@ var index = create();
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Finstallers&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cinstallers%5Cindex.tsx!./":
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Finstallers&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cinstallers%5Cindex.tsx ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cindex.tsx!./":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cindex.tsx ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/installers", function() {
-      var mod = __webpack_require__(/*! ./pages/installers/index.tsx */ "./pages/installers/index.tsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
       if(true) {
-        module.hot.accept(/*! ./pages/installers/index.tsx */ "./pages/installers/index.tsx", function() {
-          if(!next.router.components["/installers"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/installers/index.tsx */ "./pages/installers/index.tsx")
-          next.router.update("/installers", updatedPage)
+        module.hot.accept(/*! ./pages/index.tsx */ "./pages/index.tsx", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -30984,43 +31236,38 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/installers/index.tsx":
-/*!************************************!*\
-  !*** ./pages/installers/index.tsx ***!
-  \************************************/
+/***/ "./pages/index.tsx":
+/*!*************************!*\
+  !*** ./pages/index.tsx ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
-/* harmony import */ var _babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/map */ "./node_modules/@babel/runtime-corejs2/core-js/map.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/IconButton */ "./node_modules/@material-ui/core/esm/IconButton/index.js");
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
-/* harmony import */ var _material_ui_icons_Save__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/Save */ "./node_modules/@material-ui/icons/Save.js");
-/* harmony import */ var _material_ui_icons_Save__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Save__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _material_ui_icons_ListAlt__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/ListAlt */ "./node_modules/@material-ui/icons/ListAlt.js");
-/* harmony import */ var _material_ui_icons_ListAlt__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ListAlt__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Card */ "./node_modules/@material-ui/core/esm/Card/index.js");
-/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/esm/CardContent/index.js");
-/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "./node_modules/@material-ui/core/esm/CardMedia/index.js");
-/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
-/* harmony import */ var _material_ui_core_List__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/List */ "./node_modules/@material-ui/core/esm/List/index.js");
-/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @material-ui/core/ListItem */ "./node_modules/@material-ui/core/esm/ListItem/index.js");
-/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @material-ui/core/ListItemText */ "./node_modules/@material-ui/core/esm/ListItemText/index.js");
-/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @material-ui/core/Paper */ "./node_modules/@material-ui/core/esm/Paper/index.js");
-/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @material-ui/core/Container */ "./node_modules/@material-ui/core/esm/Container/index.js");
-/* harmony import */ var _src_header__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../src/header */ "./src/header.tsx");
-/* harmony import */ var _src_footer__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../src/footer */ "./src/footer.tsx");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/esm/Button/index.js");
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
+/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Card */ "./node_modules/@material-ui/core/esm/Card/index.js");
+/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/esm/CardContent/index.js");
+/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "./node_modules/@material-ui/core/esm/CardMedia/index.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @material-ui/core/Container */ "./node_modules/@material-ui/core/esm/Container/index.js");
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
+/* harmony import */ var _src_link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/link */ "./src/link.tsx");
+/* harmony import */ var _src_header__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../src/header */ "./src/header.tsx");
+/* harmony import */ var _src_footer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../src/footer */ "./src/footer.tsx");
 
-var _jsxFileName = "D:\\Project\\McDedicatedServer\\minecraft_scepter_home\\nextjs-with-typescript\\pages\\installers\\index.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var _jsxFileName = "D:\\Project\\McDedicatedServer\\minecraft_scepter_home\\nextjs-with-typescript\\pages\\index.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
@@ -31037,10 +31284,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+function Copyright() {
+  return __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    variant: "body2",
+    color: "textSecondary",
+    align: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, 'Copyright © ', __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    color: "inherit",
+    href: "https://material-ui.com/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "\u5275\u4E16\u795E\u6B0A\u6756"), ' ', new Date().getFullYear(), '.');
+}
 
-
-
-var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_16__["makeStyles"])(function (theme) {
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__["makeStyles"])(function (theme) {
   return {
     icon: {
       marginRight: theme.spacing(2)
@@ -31074,405 +31339,303 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_16__["m
     }
   };
 });
-;
-var Datas = [{
-  title: "Vanilla 官方伺服器 1.12.2",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.12.2.dmc",
-  tags: ["官方", "生存"]
-},
-/* as SearchableData,*/
-{
-  title: "Vanilla 官方伺服器 1.13.1",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.13.1.dmc",
-  tags: ["官方", "生存"]
-},
-/* as SearchableData,*/
-{
-  title: "Vanilla 官方伺服器 1.13.2",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.13.2.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Vanilla 官方伺服器 1.13",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.13.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Vanilla 官方伺服器 1.14.1",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.14.1.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Vanilla 官方伺服器 1.14.2",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.14.2.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Vanilla 官方伺服器 1.14.3",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.14.3.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Vanilla 官方伺服器 1.14.4",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.14.4.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Vanilla 官方伺服器 1.14",
-  description: "官方伺服器",
-  thumbnail: "https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png",
-  pathToDownload: "/files/installers/Vanilla/Survive/Vanilla_1.14.dmc",
-  tags: ["官方", "生存"]
-}, {
-  title: "Confuse Dropper 水立方 1.13.1",
-  description: "http://www.minecraftmaps.com/dropper-maps/confuse-dropper",
-  thumbnail: "/images/installers/cunfuseDropper.png",
-  pathToDownload: "/files/installers/Vanilla/Theme/confuse_dropper_1.13.1.dmc",
-  tags: ["官方", "主題", "水立方"]
-}, {
-  title: "Mario Kart 馬力歐賽車 1.14",
-  description: "https://www.minecraftmaps.com/game-maps/mario-kart-in-minecraft",
-  thumbnail: "/images/installers/marioKart.png",
-  pathToDownload: "/files/installers/Vanilla/Theme/mario_kart_minecraft_1.14.dmc",
-  tags: ["官方", "主題", "賽車"]
-}, {
-  title: "Nico Unfair Minecraft 1.12.2",
-  description: "https://www.minecraftmaps.com/puzzle-maps/unfair-minecraft",
-  thumbnail: "/images/installers/unfairMinecraft.png",
-  pathToDownload: "/files/installers/Vanilla/Theme/nico_unfair_minecraft_1.12.2.dmc",
-  tags: ["官方", "主題", "愚弄"]
-}, {
-  title: "SethBling 建築遊戲 1.11",
-  description: "https://www.planetminecraft.com/project/the-building-game-for-111/",
-  thumbnail: "https://static.planetminecraft.com/files/resource_media/screenshot/1641/2016-10-12_09365510584511.png",
-  pathToDownload: "/files/installers/Vanilla/Theme/sethbling_building_game_1.11.dmc",
-  tags: ["官方", "主題", "建築"]
-}, {
-  title: "Would you rather 魚丸的你寧可v2 1.12.2 [wevin1234]",
-  description: "https://forum.gamer.com.tw/C.php?bsn=18673&snA=173433",
-  thumbnail: "https://truth.bahamut.com.tw/s01/201902/f0c0c04f6143fe5dc440cb0b71d73fc9.JPG",
-  pathToDownload: "/files/installers/Vanilla/Theme/wevin1234_would_you_rather_v2_1.12.2.dmc",
-  tags: ["官方", "主題", "愚弄"]
-}];
+var cards = [{
+  title: "硬體監控",
+  subtitle: "怎麼就是開不起來？記憶體不夠？處理器不夠力？",
+  url: "images/home/feature_detect.jpg",
+  backgroundColor: "lightpink",
+  color: "#000000"
+},, {
+  title: "伺服器管理",
+  subtitle: "今天玩賽車、明天玩你蓋我猜、後天玩生存？僅需切換！",
+  url: "images/home/feature_server_management.jpg",
+  backgroundColor: "lightgoldenrodyellow",
+  color: "#000000"
+},, {
+  title: "內建指令集",
+  subtitle: "忘了指令有哪些，輸入錯誤了嗎？這個指令是幹嘛的？候選指令清單，煩憂解勞！",
+  url: "images/home/feature_command.jpg",
+  backgroundColor: "lightgreen",
+  color: "#000000"
+},, {
+  title: "人性化",
+  subtitle: "Eula？終端用戶協議？想看想改一次搞定！",
+  url: "images/home/feature_people.jpg",
+  backgroundColor: "lightskyblue",
+  color: "#000000"
+},, {
+  title: "IP獲取",
+  subtitle: "去哪裡找IP，不用找了，就在這裡！",
+  url: "images/home/feature_ip.jpg",
+  backgroundColor: "aliceblue",
+  color: "#000000"
+},, {
+  title: "自動化",
+  subtitle: "根據定義自動獲取檔案下載位置！",
+  url: "images/home/feature_auto.jpg",
+  backgroundColor: "plum",
+  color: "#000000"
+},,];
 
-function getListOfTags(datas) {
-  var taggers = new _babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0___default.a();
-  datas.forEach(function (data) {
-    data.tags.forEach(function (tag) {
-      if (!taggers.has(tag)) taggers.set(tag, new Array());
-      taggers.get(tag).push(data);
-    });
-  });
-  return taggers;
+function Hero() {
+  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      classes = _ref.classes;
+
+  return __jsx("div", {
+    className: classes.heroContent,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    maxWidth: "sm",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    component: "h1",
+    variant: "h2",
+    align: "center",
+    color: "textPrimary",
+    gutterBottom: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, "\u81EA\u52D5\u5316\u958B\u670D"), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    variant: "h5",
+    align: "center",
+    color: "textSecondary",
+    paragraph: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "\u4E0D\u7528\u518D\u9762\u5C0D\u9ED1\u8996\u7A97\uFF0C", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }), "\u4E00\u6B3E\u73FE\u4EE3\u5316\u8207\u81EA\u52D5\u5316\u7684\u5275\u4E16\u795E\u958B\u670D\u5DE5\u5177\uFF0C\u5C31\u5728\u9019\uFF01", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }), "\u517C\u5177\u4E00\u9375\u958B\u670D\u3001\u81EA\u52D5\u5316\u3001\u4F3A\u670D\u5668\u7BA1\u7406\u3001\u9810\u8A2D\u6307\u4EE4\u96C6...\u7B49\uFF0C", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }), "\u4E0D\u7528\u518D\u70BA\u4E86\u958B\u670D\u50B7\u8166\u7D93\uFF01"), __jsx("div", {
+    className: classes.heroButtons,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    container: true,
+    spacing: 2,
+    justify: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    item: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    variant: "contained",
+    color: "primary",
+    component: _src_link__WEBPACK_IMPORTED_MODULE_14__["default"]
+  }, {
+    href: '/changelogs'
+  }, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"]
+  /*fontWeight="fontWeightBold"*/
+  , {
+    style: {
+      color: "#fafad2"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "\u4E0B\u8F09\u5275\u4E16\u795E\u6B0A\u6756"))), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    item: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    variant: "outlined",
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    fontWeight: "fontWeightBold",
+    component: _src_link__WEBPACK_IMPORTED_MODULE_14__["default"]
+  }, {
+    href: '/tutorials'
+  }, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }), "\u4E86\u89E3\u66F4\u591A")))))));
 }
 
-function Index() {
-  var classes = useStyles({});
-  var datas = getListOfTags(Datas);
+function FeatrueHome() {
+  var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      classes = _ref2.classes;
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(Datas),
-      cards = _useState[0],
-      setCards = _useState[1]; // for (var key in datas) {
-  //   alert("User " + datas[key] + " is #" + key); // "User john is #234"
-  // }
-
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
+  return __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    className: classes.cardGrid,
+    maxWidth: "md",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196
+      lineNumber: 113
     },
     __self: this
-  }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    },
-    __self: this
-  }), __jsx(_src_header__WEBPACK_IMPORTED_MODULE_18__["default"], {
-    tabIndex: 1,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 198
-    },
-    __self: this
-  }), __jsx("main", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 199
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    height: 24,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 200
-    },
-    __self: this
-  }), __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_17__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 201
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     container: true,
-    spacing: 3,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    item: true,
-    xs: 12,
-    sm: 2,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 204
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_17__["default"], {
-    style: {
-      paddingTop: 24,
-      paddingBottom: 16
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    variant: "h6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 206
-    },
-    __self: this
-  }, "\u5206\u985E"), __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    component: "nav",
-    dense: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 209
-    },
-    __self: this
-  }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    button: true,
-    onClick: function onClick(_) {
-      return setCards(Datas);
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 210
-    },
-    __self: this
-  }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    primary: "\u4E0D\u5206\u985E",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
-    },
-    __self: this
-  })), ListOfCategories(datas, function (targetData) {
-    return setCards(targetData);
-  }), __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    onClick: function onClick() {
-      return window.open("https://docs.google.com/forms/d/e/1FAIpQLSf4_0DJaUBk006I6LpsduhnwFhFBWxjOTqldpeCLcisD4YQ2A/viewform?usp=sf_link", '_blank');
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 221
-    },
-    __self: this
-  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    variant: "caption",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 224
-    },
-    __self: this
-  }, "\u65B0\u589E\u5B89\u88DD\u5305"), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    width: 4,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227
-    },
-    __self: this
-  }), __jsx(_material_ui_icons_ListAlt__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    fontSize: "small",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 228
-    },
-    __self: this
-  })))))), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    container: true,
-    item: true,
-    xs: 12,
-    sm: 10,
     spacing: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234
+      lineNumber: 114
     },
     __self: this
-  }, cards.map(function (data) {
-    return __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, cards.map(function (card) {
+    return __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
       item: true,
-      key: data.title,
+      key: card.title,
       xs: 12,
       sm: 6,
-      md: 6,
+      md: 4,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 238
+        lineNumber: 116
       },
       __self: this
-    }, __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }, __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_5__["default"], {
       className: classes.card,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 239
+        lineNumber: 117
       },
       __self: this
-    }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__["default"], {
       className: classes.cardMedia,
-      image: "".concat(data.thumbnail),
-      title: "".concat(data.title),
+      image: "".concat(card.url),
+      title: "".concat(card.title),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 240
+        lineNumber: 118
       },
       __self: this
-    }), __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    }), __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__["default"], {
       className: classes.cardContent,
+      style: {
+        backgroundColor: card.backgroundColor,
+        color: card.color
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 245
+        lineNumber: 123
       },
       __self: this
-    }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      container: true,
-      key: "inner-" + data.title,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 246
-      },
-      __self: this
-    }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      item: true,
-      key: "a-" + data.title,
-      xs: 10,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 247
-      },
-      __self: this
-    }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
       gutterBottom: true,
       variant: "h5",
       component: "h2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 248
+        lineNumber: 124
       },
       __self: this
-    }, "".concat(data.title)), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    }, "".concat(card.title)), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 251
+        lineNumber: 127
       },
       __self: this
-    }, "".concat(data.description))), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      item: true,
-      key: "b-" + data.title,
-      xs: 2,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 255
-      },
-      __self: this
-    }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      display: "flex",
-      justifyContent: "flex-end",
-      alignItems: "flex-end",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 256
-      },
-      __self: this
-    }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      onClick: function onClick(_) {
-        window.location.href = data.pathToDownload;
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 257
-      },
-      __self: this
-    }, __jsx(_material_ui_icons_Save__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 258
-      },
-      __self: this
-    }))))))));
-  }))))), __jsx(_src_footer__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    }, "".concat(card.subtitle)))));
+  })));
+}
+
+function Index() {
+  var classes = useStyles({}); //const data = React.useEffect(() => alert("yo"));
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273
+      lineNumber: 144
+    },
+    __self: this
+  }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 145
+    },
+    __self: this
+  }), __jsx(_src_header__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    tabIndex: -1,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146
+    },
+    __self: this
+  }), __jsx("main", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147
+    },
+    __self: this
+  }, __jsx(Hero, {
+    classes: Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, classes),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: this
+  }), __jsx(FeatrueHome, {
+    classes: Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, classes),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: this
+  })), __jsx(_src_footer__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 154
     },
     __self: this
   }));
-}
-
-function ListOfCategories(datas, onRefresh) {
-  var listItems = [];
-  datas.forEach(function (value, key) {
-    listItems.push(__jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
-      key: key,
-      button: true,
-      onClick: function onClick(_) {
-        return onRefresh(value);
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 283
-      },
-      __self: this
-    }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_13__["default"], {
-      primary: key,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 288
-      },
-      __self: this
-    })));
-  });
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 295
-    },
-    __self: this
-  }, listItems);
 }
 
 /***/ }),
@@ -32233,14 +32396,14 @@ function Link(props) {
 
 /***/ }),
 
-/***/ 2:
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Finstallers&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cinstallers%5Cindex.tsx ***!
-  \************************************************************************************************************************************************************************************************/
+/***/ 0:
+/*!*************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cindex.tsx ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Finstallers&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cinstallers%5Cindex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Finstallers&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cinstallers%5Cindex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cindex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cindex.tsx!./");
 
 
 /***/ }),
@@ -32256,5 +32419,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=installers.js.map
+},[[0,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=index.js.map
