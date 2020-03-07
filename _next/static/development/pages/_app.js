@@ -44,6 +44,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./no
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
@@ -376,6 +387,25 @@ module.exports = _createClass;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithHoles.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithHoles.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayWithHoles; });
+/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
+/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__);
+
+function _arrayWithHoles(arr) {
+  if (_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default()(arr)) return arr;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js ***!
@@ -447,6 +477,36 @@ function _createClass(Constructor, protoProps, staticProps) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js ***!
@@ -504,6 +564,63 @@ function _inherits(subClass, superClass) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArrayLimit.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArrayLimit.js ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArrayLimit; });
+/* harmony import */ var _core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/get-iterator */ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js");
+/* harmony import */ var _core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0__);
+
+function _iterableToArrayLimit(arr, i) {
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
+
+  try {
+    for (var _i = _core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default()(arr), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableRest.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableRest.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableRest; });
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js":
 /*!**************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js ***!
@@ -548,6 +665,28 @@ function _setPrototypeOf(o, p) {
   };
 
   return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _slicedToArray; });
+/* harmony import */ var _arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithHoles.js");
+/* harmony import */ var _iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArrayLimit.js");
+/* harmony import */ var _nonIterableRest__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableRest.js");
+
+
+
+function _slicedToArray(arr, i) {
+  return Object(_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || Object(_nonIterableRest__WEBPACK_IMPORTED_MODULE_2__["default"])();
 }
 
 /***/ }),
@@ -2649,7 +2788,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/index.js ***!
   \************************************************************/
-/*! exports provided: createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration, formatMs, isString, isNumber */
+/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, easing, duration, formatMs, isString, isNumber, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5357,6 +5496,22 @@ module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
 module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
 
 
 /***/ }),
@@ -18625,45 +18780,53 @@ module.exports = function(module) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyApp; });
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/styles */ "./node_modules/@material-ui/styles/esm/index.js");
-/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
-/* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/theme */ "./src/theme.tsx");
-
-
-
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
+/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/styles */ "./node_modules/@material-ui/styles/esm/index.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
+/* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/theme */ "./src/theme.tsx");
+/* harmony import */ var _src_utility_translator_translatorContext__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/utility/translator/translatorContext */ "./src/utility/translator/translatorContext.tsx");
+/* harmony import */ var _src_utility_translator_translator__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/utility/translator/translator */ "./src/utility/translator/translator.ts");
 
 
 
 
 
 
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+
+
+
+
+
+
+
+ // import { withRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 var MyApp =
 /*#__PURE__*/
 function (_App) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MyApp, _App);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(MyApp, _App);
 
   function MyApp() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, MyApp);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, MyApp);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MyApp).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(MyApp).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MyApp, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(MyApp, [{
     key: "componentDidMount",
     value: function componentDidMount() {// Remove the server-side injected CSS.
       //alert("Did mount");
@@ -18678,8 +18841,18 @@ function (_App) {
     value: function render() {
       var _this$props = this.props,
           Component = _this$props.Component,
-          pageProps = _this$props.pageProps;
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, __jsx("title", null, "MinecraftScepter"), __jsx("link", {
+          pageProps = _this$props.pageProps,
+          router = _this$props.router; // const router = useRouter();
+
+      var pack = _src_utility_translator_translator__WEBPACK_IMPORTED_MODULE_13__["Translator"].Eng;
+      var query = router.query;
+      console.log("query: ".concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(router)));
+
+      if (query !== undefined && router.asPath.includes("tw")) {
+        pack = _src_utility_translator_translator__WEBPACK_IMPORTED_MODULE_13__["Translator"].ZhTW;
+      }
+
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, null, __jsx("title", null, "MinecraftScepter"), __jsx("link", {
         rel: "shortcut icon",
         href: "/static/favicon.ico"
       }), __jsx("link", {
@@ -18693,16 +18866,19 @@ function (_App) {
         "data-ad-client": "ca-pub-6282899881501227",
         async: true,
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      })), __jsx(_material_ui_styles__WEBPACK_IMPORTED_MODULE_8__["ThemeProvider"], {
-        theme: _src_theme__WEBPACK_IMPORTED_MODULE_10__["default"]
-      }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9__["default"], null), __jsx(Component, pageProps)));
+      })), __jsx(_material_ui_styles__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
+        theme: _src_theme__WEBPACK_IMPORTED_MODULE_11__["default"]
+      }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__["default"], null), __jsx(_src_utility_translator_translatorContext__WEBPACK_IMPORTED_MODULE_12__["TranslatorContextProvider"], {
+        pack: router.query !== undefined && router.query["language"] === "tw" ? _src_utility_translator_translator__WEBPACK_IMPORTED_MODULE_13__["Translator"].ZhTW : pack
+      }, __jsx(Component, pageProps))));
     }
   }]);
 
   return MyApp;
-}(next_app__WEBPACK_IMPORTED_MODULE_6___default.a);
+}(next_app__WEBPACK_IMPORTED_MODULE_7___default.a);
 
 
+;
 
 /***/ }),
 
@@ -18741,6 +18917,368 @@ var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["create
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (theme);
+
+/***/ }),
+
+/***/ "./src/utility/translator/translator.ts":
+/*!**********************************************!*\
+  !*** ./src/utility/translator/translator.ts ***!
+  \**********************************************/
+/*! exports provided: Translator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Translator", function() { return Translator; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+
+
+var Translator = function Translator() {
+  Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Translator);
+};
+
+Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Translator, "Eng", {
+  common: {
+    language: "English"
+  },
+  footer: {
+    title: "MinecraftScepter",
+    subtitle: "Your best dingus tool for Minecraft Servers",
+    copy_right: "Copyright © ",
+    minecraft_scepter: "MinecraftScepter"
+  },
+  header: {
+    title_logo: "Minecraft Scepter",
+    tutorial: "Tutorial",
+    suggested: "Installer",
+    faq: "FAQ",
+    changelog: "Changelog",
+    about: "About"
+  },
+  home: {
+    feature_a_title: "Monitor",
+    feature_a_subtitle: "Out of cpu? memory? dashboard designed for you!",
+    feature_b_title: "Management",
+    feature_b_subtitle: "Mario kart? Heavy mod Server? Switch asap.",
+    feature_c_title: "Command Set",
+    feature_c_subtitle: "Forget the command? Typo again? A list of candidate is here!",
+    feature_d_title: "Friendly",
+    feature_d_subtitle: "Don't need to modify manually, just a gentle ask.",
+    feature_e_title: "IP",
+    feature_e_subtitle: "Internal, Public, Ngrok... all your needs in one section",
+    feature_f_title: "Automation",
+    feature_f_subtitle: "Download all you needs with a tiny file(<1KB mostly)",
+    title: "Minecraft Scepter",
+    subtitle: "No terminal, \nA modern way to manage server.\nAutomation workflow, Command Set, Server Management, all your needs!",
+    download: "Download",
+    more: "More",
+    application: "images/home/full_en.png",
+    feature_a_link: "images/home/feature_detect_en.jpg",
+    feature_b_link: "images/home/feature_server_management_en.jpg",
+    feature_c_link: "images/home/feature_command_en.jpg",
+    feature_d_link: "images/home/feature_people_en.jpg",
+    feature_e_link: "images/home/feature_ip_en.jpg",
+    feature_f_link: "images/home/feature_auto_en.jpg"
+  },
+  tutorial: {
+    modern_title: "Modern (Minecraft Scepter)",
+    modern_intro: "Introduction (Chinese)",
+    modern_intro_desc: "A quick way to know every single section of Minecraft Scepter.",
+    modern_oneclick: "Create a forge modded server with single click! (Chinese)",
+    modern_oneclick_desc: "Use lucky block modded server and map to display the power of Scepter.",
+    modern_installer: "How to make an Installer (dmc)? (Chinese)",
+    modern_installer_desc: "Detail for whole you need to know about making an installer.",
+    legacy_title: "Traditional",
+    legacy_zero: "Make a server with Zero-Knowledge (Chinese)",
+    legacy_zero_desc: "Talk about whole you need to know on creating a server, including router setup.",
+    legacy_forge: "Play some mods with Forge Server (Chinese)",
+    legacy_forge_desc: "From install to test, everything about forge and other mods server."
+  },
+  installer: {
+    vanilla_server_1_12_2: "Vanilla Server 1.12.2",
+    vanilla_server_1_13_1: "Vanilla Server 1.13.1",
+    vanilla_server_1_13_2: "Vanilla Server 1.13.2",
+    vanilla_server_1_13: "Vanilla Server 1.13",
+    vanilla_server_1_14_1: "Vanilla Server 1.14.1",
+    vanilla_server_1_14_2: "Vanilla Server 1.14.2",
+    vanilla_server_1_14_3: "Vanilla Server 1.14.3",
+    vanilla_server_1_14_4: "Vanilla Server 1.14.4",
+    vanilla_server_1_14: "Vanilla Server 1.14",
+    official_server: "Official Server",
+    tag_official: "Vanilla",
+    tag_survival: "Survival",
+    tag_theme: "Theme",
+    tag_dropper: "Dropper",
+    tag_racing: "Racing",
+    tag_troll: "Troll",
+    tag_build: "Build",
+    confuse_dropper_1_13_1: "Confuse Dropper 1.13.1",
+    mario_kart_1_14: "Mario Kart 1.14",
+    nico_unfair_minecraft_1_12_2: "Nico Unfair Minecraft 1.12.2",
+    sethbling_building_1_11: "SethBling Building Game 1.11",
+    would_you_rather_v2_1_12_2: "Would you rather v2 1.12.2 [wevin1234]",
+    category: "Category",
+    uncategory: "All",
+    linkToForum: "http://bit.ly/mcscepterforum_en",
+    noticeA: "It's recommened to use installers from ",
+    noticeB: "Forum.",
+    noticeC: " The installers below could work properly, but will not be updated anymore."
+  },
+  faq: {
+    qA: "What is 127.0.0.1? Can that be used to connect?",
+    aA: "This is a IP represent to yourself. It's mostly used for testing If server is actually working.",
+    qB: "How to connect to friend?",
+    aB: "There is three way to connect to friend, Virtual Lan, Router, Ngrok. Hamachi is the common way to everyone, and Configure router to use port forwarding on 25565 is the second way. The final way is Ngrok, you could use this without open port.",
+    qC: "What did Minecraft Scepter do? Why I need to use It?",
+    aC: "This is [Chinyun's](https://www.youtube.com/channel/UCWx2R78GhmltZudJHLEnd5w) dream in childhood, create a server headlessly, manage multiple server, and automating any part with friendly steps! You might not need to use Minecraft Scepter with heavy server. It's currently support, Forge and Vanilla, so you should consider If this fit your needs.",
+    qD: "Could existed server migrate in Minecraft Scepter?",
+    aD: "Why not? Just copy in servers folder beside exe, If there is no such a folder, make one. And change the original server executable to server.jar, and make a empty dmc with vanilla type selected, that's it.",
+    qE: "Support Minecraft (MCPE)？",
+    aE: "There is no such a official way to open MCPE, and the only way to open PE server is used third party, since I didn't realize any license about MCPE, so the support is not planed.",
+    qF: "Crash?",
+    aF: "Basically, It only work on 64bit system, and Win10 (not only), and be notice, don't have any non english in the file path.[Video explain(Chinese)](https://youtu.be/0J4JU8ge5XE).",
+    qG: "Did It support X.X.X version？",
+    aG: "Any version is supported, you could make your own installer, when you can't find one fit the needs. Please see [Hot to make a installer(Chinese)](https://youtu.be/E9auOMjV3qg), and welcome to share on [forum](http://bit.ly/mcscepterforum_en)。",
+    qH: "A lot of IP, which do I use?",
+    aH: "Since my video is Chinese, I'll expain here, If your router's port forward method is configured properly, public IP is the best choice. The second way, use VLAN like hamachi, so you don't need to know anything listed. The final killer approach is ngrok, after sign up, get a auth token and paste in, that's It!",
+    qI: "Did XYZ Big fat mod work?",
+    aI: "You could set java configuration or any server configuration in the Scepter now, so the openable should count on your machine.",
+    qJ: "When add Mod B, my server crash, but A is working?",
+    aJ: "This is not the fault of scepter, It's a generally plugin/mod confliction or unstability from mod, you should report or ask to forge or mod author.",
+    qK: "Making a installer and follow the steps, why my installer doesn't work?",
+    aK: "You might download wrong forge, such as Universal verison, or not using direct download link, It's a link that could be download file directly without REDIRECT.",
+    qL: "Decompression fail, what's going on?",
+    aL: "Please use 7z or Bandizip, I use Windows Powershell to compress and confused too. Here is a workaround that hear by users, modify extension to 7z and you could decompress It.[Video(Chinese)](https://youtu.be/0J4JU8ge5XE)",
+    qM: "Could unverified Minecraft Client use It?",
+    aM: "This is not a responsibility to the Scepter, It's a configuration in server.properties, set online-mode to false, that's It..."
+  },
+  about: {
+    link_to_donation: "http://bit.ly/minecraftscepterdonation_tw",
+    about_software: "About Software",
+    minecraft_scepter_title: "The idea about Minecraft Scepter, ",
+    minecraft_scepter_desc_a: "When I'm child, open a server is such a hard work, and there is a bunch of devil in the details for killing me with frustration. ",
+    minecraft_scepter_desc_b: "As a former little player, ",
+    minecraft_scepter_desc_c: "I dreamed about a tool for killing any devils. ",
+    minecraft_scepter_desc_d: "and no need to config, and correct version for any confliction...",
+    minecraft_scepter_desc_e: "Nowadays, ",
+    minecraft_scepter_desc_f: "The player grow up, ",
+    minecraft_scepter_desc_g: "have no time to play a game, but still remember the dream, so Minecraft Scepter born...",
+    yt_channel: "Youtube",
+    form: "Form",
+    support: "Donation",
+    about_author: "About Author",
+    chinyun: "Chinyun",
+    author_desc_a: "Give up without trying any thing, The successful rate is always 0%.",
+    author_desc_b: "I'm a fullstack developer, and like to play something like Blender or Hitfilm, and dream there is someday, I have my own business.",
+    author_mail: "Mail to Chinyun"
+  },
+  donation: {
+    donation_basic: "Donation form",
+    email_wrong: "Email error...",
+    player_name: "Player Name(opt）",
+    donation_money: "Amount",
+    money_wrong: "At least 30TWD or 1USD",
+    improve_or_feature: "Improve...(opt)",
+    anything: "Anything(opt)",
+    donate: "Donate",
+    transaction_msg: "Transaction Success by ",
+    notice: "Ecpay => TWD, Paypal => USD (30: 1)"
+  }
+});
+
+Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Translator, "ZhTW", {
+  common: {
+    language: "繁體中文"
+  },
+  footer: {
+    title: "創世神權杖",
+    subtitle: "一鍵開服與管理的自動化幫手",
+    copy_right: "版權 © ",
+    minecraft_scepter: "創世神權杖"
+  },
+  header: {
+    title_logo: "創世神權杖",
+    tutorial: "影片教學",
+    suggested: "推薦安裝包",
+    faq: "常見問題",
+    changelog: "歷史版本",
+    about: "關於"
+  },
+  home: {
+    feature_a_title: "硬體監控",
+    feature_a_subtitle: "怎麼就是開不起來？記憶體不夠？處理器不夠力？",
+    feature_b_title: "伺服器管理",
+    feature_b_subtitle: "今天玩賽車、明天玩你蓋我猜、後天玩生存？僅需切換！",
+    feature_c_title: "內建指令集",
+    feature_c_subtitle: "忘了指令有哪些，輸入錯誤了嗎？這個指令是幹嘛的？候選指令清單，煩憂解勞！",
+    feature_d_title: "人性化",
+    feature_d_subtitle: "Eula？終端用戶協議？想看想改一次搞定！",
+    feature_e_title: "IP獲取",
+    feature_e_subtitle: "去哪裡找IP，不用找了，就在這裡！",
+    feature_f_title: "自動化",
+    feature_f_subtitle: "根據定義自動獲取檔案下載位置！",
+    title: "自動化開服",
+    subtitle: "不用再面對黑視窗，\n一款現代化與自動化的創世神開服工具，就在這！\n兼具一鍵開服、自動化、伺服器管理、預設指令集...等，\n不用再為了開服傷腦筋！",
+    download: "下載創世神權杖",
+    more: "了解更多",
+    application: "images/home/full_tw.png",
+    feature_a_link: "images/home/feature_detect_tw.jpg",
+    feature_b_link: "images/home/feature_server_managemtwt_tw.jpg",
+    feature_c_link: "images/home/feature_command_tw.jpg",
+    feature_d_link: "images/home/feature_people_tw.jpg",
+    feature_e_link: "images/home/feature_ip_tw.jpg",
+    feature_f_link: "images/home/feature_auto_tw.jpg"
+  },
+  tutorial: {
+    modern_title: "現代化開服教學 (創世神權杖)",
+    modern_intro: "軟體介紹",
+    modern_intro_desc: "帶你掠過所有功能的意義，讓你知道開服要注意的事情，都幫你準備好了！",
+    modern_oneclick: "一鍵安裝",
+    modern_oneclick_desc: "利用幸運方塊，帶你了解模組伺服器開服，原來這麼簡單！",
+    modern_installer: "安裝包製作",
+    modern_installer_desc: "想了解怎麼製作安裝包嗎？就看這部影片，從製作 -> 上傳 -> 測試，帶你走一遍。",
+    legacy_title: "傳統開服教學",
+    legacy_zero: "從無到有",
+    legacy_zero_desc: "理論基礎從「零」學起，白手開啟一個多人伺服器！",
+    legacy_forge: "Forge伺服器",
+    legacy_forge_desc: "想玩模組，用 Forge 就對了！從下載、安裝、測試，跑一遍全盤了解。"
+  },
+  installer: {
+    vanilla_server_1_12_2: "Vanilla 官方伺服器 1.12.2",
+    vanilla_server_1_13_1: "Vanilla 官方伺服器 1.13.1",
+    vanilla_server_1_13_2: "Vanilla 官方伺服器 1.13.2",
+    vanilla_server_1_13: "Vanilla 官方伺服器 1.13",
+    vanilla_server_1_14_1: "Vanilla 官方伺服器 1.14.1",
+    vanilla_server_1_14_2: "Vanilla 官方伺服器 1.14.2",
+    vanilla_server_1_14_3: "Vanilla 官方伺服器 1.14.3",
+    vanilla_server_1_14_4: "Vanilla 官方伺服器 1.14.4",
+    vanilla_server_1_14: "Vanilla 官方伺服器 1.14",
+    official_server: "官方伺服器",
+    tag_official: "官方",
+    tag_survival: "生存",
+    tag_theme: "主題",
+    tag_dropper: "水立方",
+    tag_racing: "賽車",
+    tag_troll: "愚弄",
+    tag_build: "建築",
+    confuse_dropper_1_13_1: "Confuse Dropper 水立方 1.13.1",
+    mario_kart_1_14: "Mario Kart 馬力歐賽車 1.14",
+    nico_unfair_minecraft_1_12_2: "Nico Unfair Minecraft 1.12.2",
+    sethbling_building_1_11: "SethBling 建築遊戲 1.11",
+    would_you_rather_v2_1_12_2: "Would you rather 魚丸的你寧可v2 1.12.2 [wevin1234]",
+    category: "分類",
+    uncategory: "不分類",
+    linkToForum: "http://bit.ly/mcscepterforum_tw",
+    noticeA: "推薦從",
+    noticeB: "論壇",
+    noticeC: "下載安裝包，這邊的安裝包亦可用，但不再更新。"
+  },
+  faq: {
+    qA: "127.0.0.1 到底是什麼？可以跟朋友連線嗎？",
+    aA: "這是一串內部 IP，代表自己這台電腦，以中文解釋就是，舉例，這裡有阿神、老皮，老皮說出「自己」時，跟阿神說出「自己」時，他們指的不會是對方吧，127.0.0.1 就是這個意思，[詳細參考](https://zh.wikipedia.org/zh-tw/User:127.0.0.1)。",
+    qB: "到底怎樣可以跟朋友連線？",
+    aB: "目前廣泛有兩個方法，**路由器** 與 **Hamachi**。前者可以開放你的公開 IP，但要確認自己的路由器是**最上層路由器**，通常該路由器都有電信業者提供的帳號密碼，關於路由器設定可以參考[從無到有的伺服器架設教學](https://www.youtube.com/watch?v=7Pp2UeKL5I4)。Hamchi 使用上較為**簡單**，**推薦新手**，如果是 Hamchi 請另行搜尋其他人的教學。但之後新增了 Ngrok，請參考[影片](https://youtu.be/0J4JU8ge5XE)",
+    qC: "創世神權杖到底做了什麼？有必要用嗎？",
+    aC: "這是[青雲](https://www.youtube.com/channel/UCWx2R78GhmltZudJHLEnd5w)努力推廣的一套，現代化又自動化的開服工具，專為開服的小玩家所設計的工具，自動安裝地圖、調整伺服器設定檔、環境測試...等。只要會用的人越多，分享安裝包的人越多，就可以創造出一個無腦開服的生態！但是仍然要學 IP 是目前的障礙。",
+    qD: "現有伺服器可以移植過來嗎？",
+    aD: "完全沒問題，只要將資料夾移到 minecraft_scepter 旁的 servers 資料夾底下，若沒有請自行建立。然後把原本用來開服的.jar 執行檔改成 server.jar，最後在製作安裝包的地方，建立一個.dmc，可經由製作安裝包，產生一個 vanilla 的 dmc 即可。(移植的玩家就算是 forge 也選 vanilla)",
+    qE: "手機版 Minecraft (MCPE) 可以開嗎？",
+    aE: "官方其實根本沒開放自架手機板伺服器，但為什麼有人可以開呢？那是非官方的神人製作的，我看不清版權，開服流程也跟電腦版天地之別，沒打算支援哦，抱歉！",
+    qF: "閃退怎麼辦？",
+    aF: "任何軟體都有機率閃退，本軟體邏輯上只支援 64 位元系統，僅測試 Windows 10 版本，另外軟體位置當前不能放置於中文路徑上，請多加注意！[影片說明](https://youtu.be/0J4JU8ge5XE)。",
+    qG: "有支援 XX 版本嗎？",
+    aG: "任何版本包含未來的版本(Vanilla/Forge)，基本上都有支援，只是安裝包要製作，可參考[如何製作安裝包](https://youtu.be/E9auOMjV3qg)，也歡迎分享至[論壇](https://minecraft-scepter-forum.ml/tw)。",
+    qH: "權杖上這麼多 IP　到底要選哪一個？",
+    aH: "這個嘛．．．你一定沒聽我解釋對不對，Public IP 需要經由路由器開 Port，權杖由於目前鎖定 25565，所以必須開此 Port，不會開可以使用 Hamachi 就不用管哪一個 IP，如果通通不會，最近新增了 Ngrok，只要你會放金鑰，就開好了，再不會？酌收[超貴的 500 設定費](https://payment.ecpay.com.tw/QuickCollect/PayData?1C26ZAO2Vxcg%2fI39c%2frwkdgcCFpnqhzlqrPiyqqRQeA%3d)，計算機科學概論講到你懂，開玩笑的。",
+    qI: "可以用 XX 模組嗎？開得起來嗎？",
+    aI: "權杖使用 Java 預設最大 1/4 記憶體用量，若是想設定最大值，請等未來支援。",
+    qJ: "裝A模組 + B伺服器後出現錯誤，怎麼辦？",
+    aJ: "通常大概率問題歸屬於，問 Forge 官方，模組作者，插件作者...等，權杖基本上是作流程控制，不是萬能 DEBUG 機。",
+    qK: "照著教學製作安裝包，怎麼不能用?",
+    aK: "載到 Forge Universal 版本，沒使用直接下載連結...等。這些都是常見的問題，這邊強調，絕不要右鍵巴哈連結貼上，那不是直接下載連結...。",
+    qL: "解壓縮失敗？怎麼回事？",
+    aL: "請使用 7z 或 Bandizip，青雲使用 Windows Powershell 壓縮，只能請各位多嘗試，有人是改成.7z 就可以解壓縮，[影片說明](https://youtu.be/0J4JU8ge5XE)。",
+    qM: "盜版可以使用嗎？",
+    aM: "這其實並不屬於創世神權杖，是 server.properties 設定問題，將 online-mode 改為 false，即可..."
+  },
+  about: {
+    link_to_donation: "http://bit.ly/minecraftscepterdonation_tw",
+    about_software: "關於軟體",
+    minecraft_scepter_title: "創世神權杖的由來",
+    minecraft_scepter_desc_a: "想初次接觸創世神，在伺服器上面碰了很多壁，開東開西、用黑視窗找問題，出了什麼問題？IP不對？版本不對？環境不對？或是有了很多伺服器卻不知道怎麼管理．．．。",
+    minecraft_scepter_desc_b: "曾經也是小玩家的我",
+    minecraft_scepter_desc_c: "，幻想著有那樣一個開服工具，上一秒可以雙人解謎，下一秒可以你蓋我猜，",
+    minecraft_scepter_desc_d: "希望不要再到處找地圖、找伺服器、調整設定檔",
+    minecraft_scepter_desc_e: "．．．。如今，那個",
+    minecraft_scepter_desc_f: "小玩家長大了",
+    minecraft_scepter_desc_g: "，也沒什麼時間玩遊戲，但仍然記得當初玩創世神的那份心願，所以「創世神權杖」就這樣誕生了！",
+    yt_channel: "Youtube 頻道",
+    form: "問卷表單",
+    support: "贊助軟體",
+    about_author: "關於作者",
+    chinyun: "青雲",
+    author_desc_a: "夢想如果不會被嘲笑，那就不是夢想。還沒嘗試就放棄，那連萬分之一的成功率也沒有。",
+    author_desc_b: "平時是一名因工作忙碌的開發者，若有閒暇時間，喜歡研究剪片、玩玩 3D 動畫、遊戲。希望有朝一日能仰賴自己的夢想維生，而不是寄人籬下，鏢客般的生活。",
+    author_mail: "寄信給青雲"
+  },
+  donation: {
+    donation_basic: "贊助基本資料",
+    email_wrong: "Email 格式錯誤",
+    player_name: "小玩家稱呼(選填）",
+    donation_money: "贊助金額",
+    money_wrong: "最低 30 TWD or 1 USD！",
+    improve_or_feature: "想要的功能或改善(選填)",
+    anything: "隨意抒發(選填)",
+    donate: "贊助",
+    transaction_msg: "交易成功： ",
+    notice: "綠界請使用 TWD, Paypal 使用 USD (30: 1)"
+  }
+});
+
+/***/ }),
+
+/***/ "./src/utility/translator/translatorContext.tsx":
+/*!******************************************************!*\
+  !*** ./src/utility/translator/translatorContext.tsx ***!
+  \******************************************************/
+/*! exports provided: TranslatorContext, TranslatorContextProvider, useTranslatorContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TranslatorContext", function() { return TranslatorContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TranslatorContextProvider", function() { return TranslatorContextProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useTranslatorContext", function() { return useTranslatorContext; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _translator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./translator */ "./src/utility/translator/translator.ts");
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+var translatorContext = Object(react__WEBPACK_IMPORTED_MODULE_1__["createContext"])(_translator__WEBPACK_IMPORTED_MODULE_2__["Translator"].ZhTW);
+var TranslatorContext = translatorContext;
+
+var translatorContextProvider = function translatorContextProvider(_ref) {
+  var pack = _ref.pack,
+      children = _ref.children;
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(pack),
+      _React$useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+      tPack = _React$useState2[0],
+      setTPack = _React$useState2[1];
+
+  return __jsx(TranslatorContext.Provider, {
+    value: tPack
+  }, children);
+};
+
+var TranslatorContextProvider = translatorContextProvider;
+var useTranslatorContext = function useTranslatorContext() {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.useContext(TranslatorContext);
+};
 
 /***/ }),
 
