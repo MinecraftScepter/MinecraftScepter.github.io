@@ -3669,7 +3669,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf
 
 /***/ }),
 
-/***/ 6:
+/***/ 2:
 /*!**********************************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
   \**********************************************************************************************************************************************************************************************************************************/
@@ -3692,5 +3692,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

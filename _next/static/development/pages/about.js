@@ -31881,7 +31881,7 @@ var useTranslatorContext = function useTranslatorContext() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=D%3A%5CProject%5CMcDedicatedServer%5Cminecraft_scepter_home%5Cnextjs-with-typescript%5Cpages%5Cabout%5Cindex.tsx ***!
   \**************************************************************************************************************************************************************************************/
@@ -31904,5 +31904,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map
