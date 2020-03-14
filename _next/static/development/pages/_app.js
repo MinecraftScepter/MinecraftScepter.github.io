@@ -13563,6 +13563,13 @@ Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["d
     donate: "Donate",
     transaction_msg: "Transaction Success by ",
     notice: "Ecpay => TWD, Paypal => USD (30: 1)"
+  },
+  sponsor: {
+    donators: "Donations",
+    top_donation: "Top donations",
+    new_donation: "Latest donations",
+    donator: "Donation",
+    moeny: "Amount"
   }
 });
 
@@ -13713,6 +13720,13 @@ Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["d
     donate: "贊助",
     transaction_msg: "交易成功： ",
     notice: "綠界請使用 TWD, Paypal 使用 USD (30: 1)"
+  },
+  sponsor: {
+    donators: "贊助者們",
+    top_donation: "贊助榜",
+    new_donation: "最新贊助",
+    donator: "贊助者",
+    moeny: "金額"
   }
 });
 
