@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "QD43RSD4Z9.com.dowen.LineLoginWithFlutter",
+        "appID": "WY9U7DBX23.com.dowen.LineLoginWithFlutter",
         "paths":[
           "/line-auth/*",
           "NOT /proxy/*",
