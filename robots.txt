@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://minecraftscepter.github.io
+
+# Sitemaps
+Sitemap: https://minecraftscepter.github.io/sitemap.xml
